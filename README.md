@@ -31,9 +31,7 @@ Users should be able to:
 ![](./public/assets/screenshots/screenshot4.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://space-tourism-website-1tqv.vercel.app/)
 
 ### Built with
 
