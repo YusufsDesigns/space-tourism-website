@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+<link rel="stylesheet" href="./css/style.css">
+<title>Space tourism website | Crew</title>
+</head>
+<body class="h-full crew">
+
+<!-- Navbar -->
+<nav class="py-0 lg:py-8">
+    <div class="flex justify-between items-center">
+    <!-- Logo -->
+    <a href="./index.html" class="inline-block px-8 py-8 sm:py-0">
+        <img src="./assets/shared/logo.svg" alt="">
+    </a>
+    <!-- Nav links -->
+    <ul class="py-8 items-center justify-center space-x-4 lg:space-x-8 backdrop-blur-xl hidden sm:flex">
+        <li>
+        <a href="./index.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">00</span>
+            <span>Home</span>
+        </a>
+        </li>
+        <li>
+        <a href="./destination.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">01</span>
+            <span>Destination</span</a>
+        </li>
+        <li>
+        <a href="./crew.html" class="current font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">02</span>
+            <span>Crew</span></a>
+        </li>
+        <li>
+        <a href="./technology.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">03</span>
+            <span>Technology</span></a>
+        </li>
+    </ul>
+    <!-- Burger btn -->
+    <div class="px-8 py-8 sm:hidden cursor-pointer" id="burger">
+        <img src="./assets/shared/icon-hamburger.svg" alt="">
+    </div>
+    </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="hidden opacity-0 fixed top-0 right-0 w-2/3 h-full backdrop-blur-xl z-10" id="menu">
+    <div class="absolute top-5 right-5 cursor-pointer" id="close">
+    <img src="./assets/shared/icon-close.svg" alt="">
+    </div>
+    <ul class="py-20 pl-8">
+        <li class="mb-8">
+            <a href="./index.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+                <span class="">00</span>
+                <span>Home</span>
+            </a>
+        </li>
+        <li class="mb-8">
+            <a href="./destination.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+                <span class="">01</span>
+                <span>Destination</span>
+            </a>
+        </li>
+        <li class="mb-8">
+            <a href="./crew.html" class="current font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+                <span class="">02</span>
+                <span>Crew</span>
+            </a>
+        </li>
+        <li class="mb-8">
+            <a href="./technology.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+                <span class="">03</span>
+                <span>Technology</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- Crew -->
+<section>
+    <div class="max-w-screen-xl mx-auto px-8">
+        <div class="text-right px-8 space-x-2 text-base font-barlow uppercase tracking-widest sm:text-left pt-8 sm:text-xl">
+            <span class="num">02</span>
+            <span>Meet your crew</span>
+        </div>
+        <div class="flex flex-col items-center text-center space-y-8 sm:flex-col-reverse lg:flex-row-reverse lg:text-left lg:gap-12">
+            <!-- Images -->
+            <!-- Crew image 1 -->
+            <div class="border-b-2 border-gray-500 w-full show-flex justify-center sm:border-0 sm:absolute sm:bottom-0 lg:relative crew-img" id="crew-1-img">
+                <img src="./assets/crew/image-douglas-hurley.png" alt="" class="w-44 h-56 object-cover crew-image">
+            </div>
+            <!-- Crew image 2 -->
+            <div class=" border-b-2 border-gray-500 w-full  justify-center sm:border-0 sm:absolute sm:bottom-0 lg:relative crew-img" id="crew-2-img">
+                <img src="./assets/crew/image-mark-shuttleworth.png" alt="" class="w-44 h-56 object-cover crew-image">
+            </div>
+            <!-- Crew image 3 -->
+            <div class=" border-b-2 border-gray-500 w-full  justify-center sm:border-0 sm:absolute sm:bottom-0 lg:relative crew-img" id="crew-3-img">
+                <img src="./assets/crew/image-victor-glover.png" alt="" class="w-44 h-56 object-cover crew-image">
+            </div>
+            <!-- Crew image 4 -->
+            <div class=" border-b-2 border-gray-500 w-full  justify-center sm:border-0 sm:absolute sm:bottom-0 lg:relative crew-img" id="crew-4-img">
+                <img src="./assets/crew/image-anousheh-ansari.png" alt="" class="w-44 h-56 object-cover crew-image">
+            </div>
+            <div class="flex flex-col items-center lg:items-start lg:flex-col-reverse">
+                <!-- Crew links -->
+                <div class="w-20 flex justify-between mb-8 lg:w-32">
+                    <div class="w-2.5 h-2.5 bg-gray-700 crew-border cursor-pointer hover:bg-gray-500 rounded-full lg:w-4 lg:h-4 crew-nav" id="crew-1"></div>
+                    <div class="w-2.5 h-2.5 bg-gray-700 rounded-full cursor-pointer hover:bg-gray-500 lg:w-4 lg:h-4 crew-nav" id="crew-2"></div>
+                    <div class="w-2.5 h-2.5 bg-gray-700 rounded-full cursor-pointer hover:bg-gray-500 lg:w-4 lg:h-4 crew-nav" id="crew-3"></div>
+                    <div class="w-2.5 h-2.5 bg-gray-700 rounded-full cursor-pointer hover:bg-gray-500 lg:w-4 lg:h-4 crew-nav" id="crew-4"></div>
+                </div>
+                <!-- Content -->
+                <!-- Crew content 1 -->
+                <div class="space-y-4 pb-10 lg:pb-20 crew-content show" id="crew-1-content">
+                    <h3 class="font-bell text-base uppercase text-gray-400 sm:text-2xl lg:text-3xl">Commander</h3>
+                    <h2 class="font-bell text-3xl uppercase sm:text-4xl lg:text-6xl">Douglas Hurley</h2>
+                    <p class="font-barlow-regular text-base lg:text-lg">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                </div>
+                <!-- Crew content 2 -->
+                <div class="space-y-4 pb-10 lg:pb-20 crew-content" id="crew-2-content">
+                    <h3 class="font-bell text-base uppercase text-gray-400 sm:text-2xl lg:text-3xl">Mission Specialist </h3>
+                    <h2 class="font-bell text-3xl uppercase sm:text-4xl lg:text-6xl">MARK SHUTTLEWORTH</h2>
+                    <p class="font-barlow-regular text-base lg:text-lg">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+                </div>
+                <!-- Crew content 3 -->
+                <div class="space-y-4 pb-10 lg:pb-20 crew-content" id="crew-3-content">
+                    <h3 class="font-bell text-base uppercase text-gray-400 sm:text-2xl lg:text-3xl">Pilot</h3>
+                    <h2 class="font-bell text-3xl uppercase sm:text-4xl lg:text-6xl">Victor Glover</h2>
+                    <p class="font-barlow-regular text-base lg:text-lg">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
+                </div>
+                <!-- Crew content 4 -->
+                <div class="space-y-4 pb-10 lg:pb-20 crew-content" id="crew-4-content">
+                    <h3 class="font-bell text-base uppercase text-gray-400 sm:text-2xl lg:text-3xl">Flight Engineer</h3>
+                    <h2 class="font-bell text-3xl uppercase sm:text-4xl lg:text-6xl">Anousheh Ansari</h2>
+                    <p class="font-barlow-regular text-base lg:text-lg">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>

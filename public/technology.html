@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+<link rel="stylesheet" href="./css/style.css">
+<title>Space tourism website | Technology</title>
+</head>
+<body class="h-full technology">
+
+<!-- Navbar -->
+<nav class="py-0 lg:py-8">
+    <div class="flex justify-between items-center">
+    <!-- Logo -->
+    <a href="./index.html" class="inline-block px-8 py-8 sm:py-0">
+        <img src="./assets/shared/logo.svg" alt="">
+    </a>
+    <!-- Nav links -->
+    <ul class="py-8 items-center justify-center space-x-4 lg:space-x-8 backdrop-blur-xl hidden sm:flex">
+        <li>
+        <a href="./index.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">00</span>
+            <span>Home</span>
+        </a>
+        </li>
+        <li>
+        <a href="./destination.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">01</span>
+            <span>Destination</span</a>
+        </li>
+        <li>
+        <a href="./crew.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">02</span>
+            <span>Crew</span></a>
+        </li>
+        <li>
+        <a href="./technology.html" class="current font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="sm:hidden lg:block">03</span>
+            <span>Technology</span></a>
+        </li>
+    </ul>
+    <!-- Burger btn -->
+    <div class="px-8 py-8 sm:hidden cursor-pointer" id="burger">
+        <img src="./assets/shared/icon-hamburger.svg" alt="">
+    </div>
+    </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="hidden opacity-0 fixed top-0 right-0 w-2/3 h-full backdrop-blur-xl z-10" id="menu">
+    <div class="absolute top-5 right-5 cursor-pointer" id="close">
+    <img src="./assets/shared/icon-close.svg" alt="">
+    </div>
+    <ul class="py-20 pl-8">
+    <li class="mb-8">
+        <a href="./index.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="">00</span>
+            <span>Home</span>
+        </a>
+    </li>
+    <li class="mb-8">
+        <a href="./destination.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="">01</span>
+            <span>Destination</span>
+        </a>
+    </li>
+    <li class="mb-8">
+        <a href="./crew.html" class="font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="">02</span>
+            <span>Crew</span>
+        </a>
+    </li>
+    <li class="mb-8">
+        <a href="./technology.html" class="current font-barlow text-lg tracking-widest uppercase relative flex space-x-2">
+            <span class="">03</span>
+            <span>Technology</span>
+        </a>
+    </li>
+    </ul>
+</div>
+
+<!-- Technology -->
+<section>
+    <div class="">
+        <div class="text-base font-barlow tracking-widest px-8 my-4 text-right sm:text-xl sm:text-left sm:my-10 lg:my-4 lg:text-3xl">
+            <span class="num">03</span>
+            <span>SPACE LAUNCH 101</span>
+        </div>
+        <div class="flex flex-col lg:flex-row-reverse lg:py-10">
+            <!-- Images -->
+            <!-- Image 1 -->
+            <div id="tech-1-img" class="tech-img show">
+                <div class="w-96 h-44 min-w-full mb-8 tech-img-l lg:hidden">
+                    <img src="./assets/technology/image-launch-vehicle-landscape.jpg" alt="" class="w-full h-auto object-cover">
+                </div>
+                <div class="hidden tech-img-p lg:block">
+                    <img src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="" class="object-cover">
+                </div>
+            </div>
+            <!-- Image 2 -->
+            <div id="tech-2-img" class="tech-img">
+                <div class="w-96 h-44 min-w-full mb-8 tech-img-l lg:hidden">
+                    <img src="./assets/technology/image-spaceport-landscape.jpg" alt="" class="w-full h-auto object-cover">
+                </div>
+                <div class="hidden tech-img-p lg:block">
+                    <img src="./assets/technology/image-spaceport-portrait.jpg" alt="" class="object-cover">
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div id="tech-3-img" class="tech-img">
+                <div class="w-96 h-44 min-w-full mb-8 tech-img-l lg:hidden">
+                    <img src="./assets/technology/image-space-capsule-landscape.jpg" alt="" class="w-full h-auto object-cover">
+                </div>
+                <div class="hidden tech-img-p lg:block">
+                    <img src="./assets/technology/image-space-capsule-portrait.jpg" alt="" class="object-cover">
+                </div>
+            </div>
+            <div class="px-8 flex flex-col items-center mt-10 space-y-10 lg:flex-row lg:">
+                <!-- Nav buttons -->
+                <div class="w-36 flex items-center justify-between sm:w-52 lg:flex-col lg:space-y-8">
+                    <div class="w-10 h-10 text-base border-2 border-gray-700 rounded-full flex items-center justify-center font-bell hover:border-gray-500 cursor-pointer tech-border sm:w-16 sm:h-16 sm:text-2xl tech-nav lg:w-20 lg:h-20 lg:text-3xl" id="tech-1">1</div>
+                    <div class="w-10 h-10 text-base border-2 border-gray-700 rounded-full flex items-center justify-center font-bell hover:border-gray-500 cursor-pointer sm:w-16 sm:h-16 sm:text-2xl tech-nav lg:w-20 lg:h-20 lg:text-3xl" id="tech-2">2</div>
+                    <div class="w-10 h-10 text-base border-2 border-gray-700 rounded-full flex items-center justify-center font-bell hover:border-gray-500 cursor-pointer sm:w-16 sm:h-16 sm:text-2xl tech-nav lg:w-20 lg:h-20 lg:text-3xl" id="tech-3">3</div>
+                </div>
+                <!-- Contents -->
+                <!-- Content 1 -->
+                <div class="show text-center space-y-4 hover:border-gray-500 cursor-pointer pb-10 tech-content lg:text-left lg:w-2/3" id="tech-1-content">
+                    <h3 class="font-barlow text-sm tracking-widest sm:text-base">THE TERMINOLOGY…</h3>
+                    <h2 class="text-2xl font-bell tracking-widest sm:text-4xl lg:text-6xl">LAUNCH VEHICLE</h2>
+                    <p class="font-barlow-regular text-base lg:text-lg lg:leading-10">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                </div>
+                <!-- Content 2 -->
+                <div class="text-center space-y-4 hover:border-gray-500 cursor-pointer pb-10 tech-content lg:text-left lg:w-2/3" id="tech-2-content">
+                    <h3 class="font-barlow text-sm tracking-widest sm:text-base">THE TERMINOLOGY…</h3>
+                    <h2 class="text-2xl font-bell tracking-widest sm:text-4xl lg:text-6xl">SPACEPORT</h2>
+                    <p class="font-barlow-regular text-base lg:text-lg lg:leading-10">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+                </div>
+                <!-- Content 3 -->
+                <div class="text-center space-y-4 hover:border-gray-500 cursor-pointer pb-10 tech-content lg:text-left lg:w-2/3" id="tech-3-content">
+                    <h3 class="font-barlow text-sm tracking-widest sm:text-base">THE TERMINOLOGY…</h3>
+                    <h2 class="text-2xl font-bell tracking-widest sm:text-4xl lg:text-6xl">SPACE CAPSULE</h2>
+                    <p class="font-barlow-regular text-base lg:text-lg lg:leading-10">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>
