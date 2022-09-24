@@ -964,25 +964,25 @@ video {
 }
 
 body.home{
-  background: url(/public/assets/home/background-home-desktop.jpg)  no-repeat center center fixed;
+  background: url(../assets/home/background-home-desktop.jpg)  no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
 
 body.destination{
-  background: url(/public/assets/destination/background-destination-desktop.jpg)no-repeat center center fixed;
+  background: url(../assets/destination/background-destination-desktop.jpg)no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
 
 body.crew{
-  background: url(/public/assets/crew/background-crew-desktop.jpg) no-repeat center center fixed;
+  background: url(../assets/crew/background-crew-desktop.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
 
 body.technology{
-  background: url(/public/assets/technology/background-technology-desktop.jpg) no-repeat center center fixed;
+  background: url(../assets/technology/background-technology-desktop.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
@@ -1157,22 +1157,22 @@ h1{
 
 @media(max-width: 1024px){
   body.home{
-    background: url(/public/assets/home/background-home-tablet.jpg) no-repeat center center/cover;
+    background: url(../assets/home/background-home-tablet.jpg) no-repeat center center/cover;
     color: #fff;
   }
 
   body.destination{
-    background: url(/public/assets/destination/background-destination-tablet.jpg) no-repeat center center/cover;
+    background: url(../assets/destination/background-destination-tablet.jpg) no-repeat center center/cover;
     color: #fff;
   }
 
   body.crew{
-    background: url(/public/assets/crew/background-crew-tablet.jpg) no-repeat center center/cover;
+    background: url(../assets/crew/background-crew-tablet.jpg) no-repeat center center/cover;
     color: #fff;
   }
 
   body.technology{
-    background: url(/public/assets/technology/background-technology-tablet.jpg) no-repeat center center/cover;
+    background: url(../assets/technology/background-technology-tablet.jpg) no-repeat center center/cover;
     color: #fff;
   }
 
@@ -1203,22 +1203,22 @@ h1{
 
 @media(max-width:640px){
   body.home{
-    background: url(/public/assets/home/background-home-mobile.jpg) no-repeat center center/cover;
+    background: url(../assets/home/background-home-mobile.jpg) no-repeat center center/cover;
     color: #fff;
   }
 
   body.destination{
-    background: url(/public/assets/destination/background-destination-mobile.jpg) no-repeat center center/cover;
+    background: url(../assets/destination/background-destination-mobile.jpg) no-repeat center center/cover;
     color: #fff;
   }
 
   body.crew{
-    background: url(/public/assets/crew/background-crew-mobile.jpg) no-repeat center center/cover;
+    background: url(../assets/crew/background-crew-mobile.jpg) no-repeat center center/cover;
     color: #fff;
   }
 
   body.technology{
-    background: url(/public/assets/technology/background-technology-mobile.jpg) no-repeat center center/cover;
+    background: url(../assets/technology/background-technology-mobile.jpg) no-repeat center center/cover;
     color: #fff;
   }
 }
